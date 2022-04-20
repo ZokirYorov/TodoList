@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfoliyo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="alert"></div>
+    <div class="container">
+        <div class="header">
+            <h3>Awesome Todo List</h3>
+            <input id="filter-sana" onchange="filtertozalash()"  type="date" style="border: 1px solid #bcd4ec;">
+        </div>
+        <div class="input">
+            <input id="item-id" type="text" style="border: 1px solid #bcd4ec; padding:15px" placeholder="What do you need to do today?">
+            <input id="input-item" type="date" style="border: 1px solid #bcd4ec; padding:15px">
+            <button id="mybtn" onclick="mybutton()">Add</button>
+        </div>
+        <div id="content" class="content">
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
