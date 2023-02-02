@@ -16,6 +16,9 @@ let alert = document.getElementById("alert")
 
 function mybutton() {
     listData = JSON.parse(localStorage.getItem("listData"));
+    if (!listData){
+        listData = [];
+    }
     if (input.value === "") {
         let alertItem = document.createElement("div")
         alertItem.classList.add("alert-item")
