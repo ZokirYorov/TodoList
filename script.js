@@ -27,7 +27,6 @@ function mybutton() {
         setTimeout(() => {
             alert.removeChild(alertItem);
         }, 3000)
-
         return;
     } else
     if (input2.value === "") {
