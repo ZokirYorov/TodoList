@@ -32,8 +32,7 @@ function mybutton() {
     if (input2.value === "") {
         let alertItem = document.createElement("div")
         alertItem.classList.add("alert-item")
-        alertItem.innerText = "\n" +
-            "Please enter the date!";
+        alertItem.innerText = "Please enter the date!";
         alert.append(alertItem)
         setTimeout(() => {
             alert.removeChild(alertItem);
