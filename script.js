@@ -22,7 +22,7 @@ function mybutton() {
     if (input.value === "") {
         let alertItem = document.createElement("div")
         alertItem.classList.add("alert-item")
-        alertItem.innerText = "Maydonni to'ldiring";
+        alertItem.innerText = "Please enter information!";
         alert.append(alertItem)
         setTimeout(() => {
             alert.removeChild(alertItem);
@@ -32,7 +32,8 @@ function mybutton() {
     if (input2.value === "") {
         let alertItem = document.createElement("div")
         alertItem.classList.add("alert-item")
-        alertItem.innerText = "Sanani kiriting";
+        alertItem.innerText = "\n" +
+            "Please enter the date!";
         alert.append(alertItem)
         setTimeout(() => {
             alert.removeChild(alertItem);
