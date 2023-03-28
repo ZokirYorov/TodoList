@@ -120,7 +120,9 @@ button:hover{
     text-decoration: line-through 2px;
     text-decoration-color: #225788;
 }
-
+.material-icons{
+    z-index: 1;
+}
 .succes{
     background-color: #a3d9c0;
 }
